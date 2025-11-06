@@ -21,3 +21,12 @@ The goal is to collect raw EV data, clean it, and make it ready for model traini
 ---
 
 ## 📂 Project Structure
+Week-1-EV-GenAI/
+│
+├── dataset/
+│ └── ev_specs_raw.csv # Original dataset downloaded from public source
+│
+├── cleaned_data/
+│ └── ev_specs_cleaned.csv # Preprocessed dataset ready for use
+│
+└── 01_data_cleaning.ipynb # Google Colab notebook with cleaning steps
